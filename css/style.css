@@ -50,6 +50,12 @@ svg{
 	width: 15px;
 	height: 15px;
 }
+svg.footer{
+	fill: currentcolor;
+	width: 25px;
+	height: 25px;
+	margin-left: 15px;
+}
 img.svg{
 	width: 15px;
 	height: 15px;
@@ -288,7 +294,17 @@ h6 { font-size: 16px; }
 .cavani_tm_header .logo[data-type="text"] .text{
 	display: inline-block;
 }
-.cavani_tm_header .logo .text{
+.cavani_tm_header .logo .blc{
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+	font-family: "Poppins";
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 70px;
+}
+.cavani_tm_header .logo .cd-words-wrapper{
 	text-decoration: none;
 	color: #000;
 	text-transform: uppercase;
@@ -395,7 +411,17 @@ h6 { font-size: 16px; }
 .cavani_tm_topbar .logo[data-type="text"] .text{
 	display: inline-block;
 }
-.cavani_tm_topbar .logo .text{
+.cavani_tm_topbar .logo .blc{
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+	font-family: "Poppins";
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 50px;
+}
+.cavani_tm_topbar .logo .cd-words-wrapper{
 	text-decoration: none;
 	color: #000;
 	text-transform: uppercase;
